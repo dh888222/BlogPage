@@ -1,0 +1,224 @@
+.main-container {
+	width: 60vw;
+	margin: auto;
+	position: relative;
+	transition-duration: .4s;
+	min-width: 800px;
+}
+
+.header-contain img {
+	margin-top: 160px;
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+	border-radius: 1.1vw;
+	/*background-color: #008c8c;*/
+}
+
+.header-context {
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	position: absolute;
+	top: 213px;
+	width: 33.33%;
+	min-width: 260px;
+	margin-left: 5vw;
+	font-size: 1vh;
+	overflow: hidden;
+}
+
+.header-context .header-title {
+	color: #f0f0f0;
+}
+
+.header-line {
+	height: .75px;
+	width: 100%;
+	background-color: #fff;
+	margin: 1em 0;
+	opacity: .7;
+}
+
+.header-text1 {
+	font-size: 1.4em;
+}
+
+.header-text2 {
+	font-size: 2.2em;
+}
+
+.main-container .main-title {
+	font-weight: bold;
+	color: #000;
+	font-size: 2.5em;
+}
+
+.main-container .main-area-container {
+	margin: 5vh 0;
+	position: relative;
+}
+
+#culture {
+	height: calc(12.5vw + 2.5em + 5vh);
+}
+
+.culture-context-container {
+	position: relative;
+	margin-top: 3.333vh;
+	color: #fff;
+}
+
+.culture-items-ul {
+	display: block;
+	margin: auto;
+	height: 12.5vw;
+	width: calc((12.5vw + 2 * 1.25vw) * 4);
+	transition: .4s;
+}
+
+.culture-items-ul .culture-items {
+	display: block;
+	float: left;
+	transition-duration: .4s;
+	margin: 0 1.25vw;
+}
+
+.culture-items-ul .culture-items, .culture-items img {
+	width: 12.5vw;
+	height: 12.5vw;
+}
+
+.culture-items-ul .culture-items:hover {
+	margin-top: -1vh;
+}
+
+.culture-items img {
+	border-radius: 5%;
+	/*background-color: #f40;*/
+	position: absolute;
+}
+
+.culture-items p {
+	display: block;
+	width: 12.5vw;
+	text-align: center;
+	position: absolute;
+	margin-top: calc(11vw - 1em);
+	z-index: 1;
+}
+
+.join-outer {
+	position: relative;
+	margin: 8vh 0;
+	height: 80.7vh;
+}
+
+.join-outer .inner-header {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	margin: auto;
+	left: calc(50% - 601.73px / 2);
+	top: calc((80.7vh - 85px - 4.5em) / 2);
+}
+
+.join-outer .join-message-1 {
+	display: block;
+	width: 100%;
+	font-size: 3em;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+.join-outer .join-message-line {
+	height: .35em;
+	border-top: .75px #fff solid;
+	width: 3em;
+	display: inline-block;
+}
+
+.join-outer .join-message-2 p {
+	display: inline-block;
+	letter-spacing: 1em;
+	margin-left: 1em;
+}
+
+.join-outer img {
+	position: absolute;
+	height: 80.7vh;
+	width: 100vw;
+	/*background-color: #008c8c;*/
+}
+
+.join-outer .join-button {
+	height: 2.5em;
+	width: 8em;
+	border-radius: .5em;
+	border: 2px #fff solid;
+	line-height: 2.5em;
+	margin: 2em auto;
+}
+
+.join-outer .join-button a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	transition-duration: .3s;
+}
+
+.join-outer .join-button a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.join-inf-ul {
+	display: block;
+	padding-bottom: 10vh;
+}
+
+.join-inf-items {
+	display: block;
+	margin: 1.5em 0;
+	font-size: 1.5em;
+}
+
+.join-inf-items .join-inf-title {
+	color: #777e87;
+	display: inline-block;
+	width: 6em;
+	font-size: 1em;
+}
+
+.join-inf-items .join-inf-text {
+	font-size: 1em;
+	color: #383e46;
+}
+
+.culture-inf-container {
+	position: fixed;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, .7);
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+}
+
+.culture-inf {
+	height: 50%;
+	width: 60%;
+	margin: auto;
+	margin-top: 15vh;
+}
+
+.culture-inf .culture-show-inf-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.close-menu{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}

@@ -1,0 +1,22 @@
+@media (max-width: 1263px) {
+	.main-container, .banner-img, .user-header-bottom {
+		width: 95%;
+	}
+	.banner .banner-img, .banner .member{
+		left: 2.5%;
+	}
+}
+
+@media (max-width: 900px) {
+	.full-container .side-bar, .full-container .main {
+		float: left;
+		width: 95%;
+		padding: 1.3em 2.5%;
+	}
+}
+
+@media (max-width: 580px) {
+	.full-container .side-bar, .main-container .user-header-bottom .user-stats {
+		display: none;
+	}
+}

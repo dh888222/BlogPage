@@ -1,0 +1,303 @@
+body {
+	background-color: #e8e8e8;
+	width: 100%;
+	min-height: 100vh;
+}
+
+div {
+	overflow: hidden;
+}
+
+.main-container, .banner-img, .user-header-bottom {
+	width: 1200px;
+}
+
+.main-container {
+	margin: auto;
+	min-height: calc(80vh - 122px);
+}
+
+.main-container .banner {
+	width: 100%;
+	height: 370px;
+	margin: 25px 0;
+	box-shadow: 0px 1px 3px rgba(26, 26, 26, .1)
+}
+
+.banner-img {
+	position: absolute;
+	height: 300px;
+}
+
+.member {
+	position: absolute;
+	margin: 30px;
+	margin-top: 180px;
+	text-shadow: 1px 1px 3px #333;
+}
+
+.banner .member img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px #bfbfbf solid;
+	float: left;
+}
+
+.banner .member .member-inf {
+	color: #fff;
+	float: left;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.banner .username {
+	font-size: 2em;
+}
+
+.user-header-bottom {
+	position: absolute;
+	margin-top: 300px;
+	height: 70px;
+	background-color: #fff;
+}
+
+.user-header-ul {
+	float: left;
+	margin-left: 20px;
+}
+
+.user-header-bottom .user-item {
+	float: left;
+	display: block;
+	line-height: 70px;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+.user-header-bottom .user-item span {
+	font-size: 1.1em;
+	color: #3c3c3c;
+}
+
+.user-header-bottom .user-item span::after {
+	transition: .3s;
+	content: "";
+	height: 5px;
+	width: calc(2em + 20px);
+	background-color: #bfbfbf;
+	display: block;
+	margin: -5px -10px;
+	opacity: 0;
+}
+
+.user-header-bottom .user-item span:hover::after {
+	opacity: 1;
+}
+
+.user-header-bottom .now-item span {
+	color: #3498db;
+}
+
+.user-header-bottom .now-item span::after {
+	width: calc(2em + 10px);
+	background-color: #3498db;
+	margin: -5px;
+	opacity: 1;
+}
+
+.user-header-bottom .now-item span:hover::after {
+	width: calc(2em + 20px);
+	margin: -5px -10px;
+}
+
+.user-stats {
+	display: block;
+	float: right;
+	padding: 0 30px;
+}
+
+.user-stats .stats-item {
+	display: block;
+	float: left;
+	text-align: center;
+	margin-top: 1em;
+	padding: 0 10px;
+}
+
+.user-stats .stats-item span, .user-stats .stats-item strong {
+	display: block;
+	font-weight: normal;
+	line-height: 1.3em;
+	color: #595959;
+}
+
+.side-bar, .main {
+	box-shadow: 0px 1px 3px rgba(26, 26, 26, .1);
+	margin-bottom: 2em;
+}
+
+.side-bar {
+	float: right;
+	width: 25%;
+	padding: 1.3em 2%;
+	background-color: #fff;
+}
+
+.side-bar li {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.side-bar .user-information li:last-child {
+	margin-bottom: 0;
+}
+
+.side-bar span {
+	color: #3c3c3c;
+	float: left;
+	display: block;
+}
+
+.side-bar .inf-content {
+	color: #bfbfbf;
+	float: right;
+}
+
+.full-container .main {
+	background-color: #fff;
+	min-height: 200px;
+	width: 65%;
+	padding: 1.3em 2.5%;
+}
+
+.full-container h3 {
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #3c3c3c;
+	margin-bottom: 1em;
+}
+
+.full-container p {
+	color: rgba(0, 0, 0, .75);
+	line-height: 1.1em;
+}
+
+.main .introduction {
+	padding-left: .5em;
+}
+
+.introduction p {
+	margin-bottom: 1em;
+}
+
+.news {
+	display: block;
+	width: 100%;
+}
+
+.news .feed {
+	border-bottom: 1px rgba(0, 0, 0, .1) solid;
+	padding: 1em 0;
+	display: flex;
+	width: 100%;
+}
+
+.news .feed:last-child {
+	border: 0;
+}
+
+.news .feed .user-pic {
+	flex-basis: 100px;
+	flex-shrink: 0;
+}
+
+.news .feed img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+.news .feed .main-feed {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1em;
+}
+
+.feed .username {
+	display: inline-flex;
+	align-items: center;
+	max-width: 100%;
+	color: rgb(243, 156, 17);
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.feed .date {
+	font-size: 0.875em;
+	color: rgb(127, 127, 127);
+	margin-left: 1em;
+}
+
+.feed .content {
+	margin: .5em 0;
+}
+
+.articles-ul {
+	width: 100%;
+}
+
+.article-items {
+	display: block;
+	border-bottom: 1px #ddd solid;
+}
+
+.article-items:last-child {
+	border: 0;
+}
+
+.article-items a {
+	width: 90%;
+	padding: .5em 4%;
+	margin: .5em 1%;
+	display: flex;
+	transition: .5s;
+}
+
+.article-items a:hover {
+	border-radius: 20px;
+	margin-top: .2em;
+	margin-bottom: .8em;
+	box-shadow: 0px 1px 3px rgba(26, 26, 26, .3);
+}
+
+.article-items img {
+	height: 100px;
+	width: 100px;
+	border-radius: 19.1px;
+}
+
+.article-items .article-img {
+	flex-basis: 120px;
+	flex-shrink: 0;
+}
+
+.article-items .article-inf {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1em;
+}
+
+.article-inf span {
+	font-size: 1.5em;
+	font-weight: bold;
+	max-width: 100%;
+	color: #3c3c3c;
+}
+
+.article-inf .article-context {
+	margin: .5em 0;
+}

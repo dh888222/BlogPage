@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+	.main-container {
+		min-width: 100%;
+	}
+	#culture {
+		display: none;
+		height: 0;
+	}
+	.join-outer .join-message-2 {
+		display: none;
+	}
+	.join-outer .inner-header {
+		left: 0;
+	}
+}

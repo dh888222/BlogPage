@@ -1,0 +1,87 @@
+.main-container .lists-container {
+	margin-left: 1vw;
+}
+
+.more-header .header-title p{
+	font-size: 2.5em;
+}
+
+.main-container .articles-container {
+	width: 64vw;
+}
+
+.article-title-banner {
+	height: 40vw;
+	width: 64vw;
+}
+
+.article-title-banner img {
+	position: absolute;
+	width: 64vw;
+	height: 40vw;
+}
+
+/*.article-title-banner p {
+	display: inline-block;
+	width: 64vw;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+	position: absolute;
+	letter-spacing: .1em;
+	margin-top: calc(20vw - .5em);
+}
+
+.article-title-banner p::before, .article-title-banner p::after {
+	content: "";
+	display: inline-block;
+	border-top: 2px #fff solid;
+	width: 2em;
+	height: .35em;
+	margin-right: .1em;
+}*/
+
+.main-text-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.article-title p{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #008c8c;
+	margin: 1em 0;
+}
+
+.main-text-container .author-name {
+	text-align: center;
+	color: #3c3c3c;
+	white-space: pre;
+	font-size: .8em;
+	margin: 1em 0;
+}
+
+.main-text-container .author-name::before {
+	content: "Author:   ";
+	color: #6c6c6c;
+}
+
+.article-text {
+	min-width: 10vh;
+	padding-bottom: 10vh;
+	margin: 1em 0;
+}
+
+.article-text img {
+	width: 100%;
+}
+
+.article-text p {
+	line-height: 1.5em;
+	color: #3c3c3c;
+	padding: .5em 0;
+	text-indent: 2em;
+}

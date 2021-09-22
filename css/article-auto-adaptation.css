@@ -1,0 +1,26 @@
+@media (max-width: 850px) {
+	.more-header .header-title p::after, .more-header .header-title p::before {
+		display: none;
+	}
+	.main-container .lists-container {
+		display: none;
+	}
+	.main-container .articles-container {
+		width: 95%;
+	}
+	.article-title-banner img {
+		width: 90.2%;
+	}
+	.article-items .article-inf {
+		width: calc(83% - 250px);
+	}
+}
+
+@media (max-width: 700px) {
+	.article-items img {
+		display: none;
+	}
+	.article-items .article-inf {
+		width: 75%;
+	}
+}
